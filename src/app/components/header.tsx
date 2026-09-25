@@ -6,7 +6,7 @@ import Navbar from "./navbar";
 export default function Header() {
   return (
     <div className="row-span-2 grid grid-rows-5 bg-cyan-800 shadow-2xl shadow-gray-400">
-      <div className="row-span-4 flex flex-row gap-8 px-4 lg:mx-auto">
+      <div className="row-span-4 flex flex-row items-center gap-8 px-4 lg:mx-auto">
         <Image
           src="/face-pic.jpg"
           alt="profile picture"
