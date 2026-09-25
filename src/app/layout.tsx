@@ -12,8 +12,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="h-full bg-white text-black">
-      <body className="font-mono">{children}</body>
+    <html lang="en" className="h-screen bg-white text-black">
+      <body className="h-full font-mono">{children}</body>
     </html>
   );
 }

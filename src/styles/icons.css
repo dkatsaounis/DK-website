@@ -1,0 +1,43 @@
+.icon {
+  display: block;
+
+  margin: auto;
+
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
+.small {
+  width: 16px;
+  height: 16px;
+}
+
+.medium {
+  width: 24px;
+  height: 24px;
+}
+
+.large {
+  width: 32px;
+  height: 32px;
+}
+
+.x-large {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-location {
+  mask-image: url("/icons/location-icon.svg");
+  -webkit-mask-image: url("/icons/location-icon.svg");
+}
+
+.icon-mail {
+  mask-image: url("/icons/mail-icon.svg");
+  -webkit-mask-image: url("/icons/mail-icon.svg");
+}
