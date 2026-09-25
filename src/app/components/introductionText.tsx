@@ -1,9 +1,9 @@
-import OutLink from "./link";
+import OutLink from "./outLink";
 
 export default function IntroductionText() {
   return (
-    <div className="row-span-8 container mx-auto flex max-w-3xl flex-col items-start justify-center text-lg">
-      <div className="m-auto mx-4 mt-24">
+    <div className="row-span-7 container mx-auto max-w-3xl items-start justify-center text-lg">
+      <div className="mx-4 mt-24">
         I am a postdoctoral researcher at RWTH Aachen University and the{" "}
         <OutLink
           label="Insitute for Geometry and Applied Mathematics in the group of"
